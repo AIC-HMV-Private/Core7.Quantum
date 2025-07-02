@@ -1,0 +1,71 @@
+# ======================================================
+#   (DevTools) Regression Tests — AIC-HMV/GreekRhyme
+#   Author: Hung Minh Vo | GreekRhyme | Supreme Architect
+#   Tactical CI: Secure, Automated, Verified
+#   Last Updated: 2025-06-30
+# ======================================================
+
+name: (DevTools) Regression Tests
+
+on:
+  schedule:
+    - cron: '0 0 * * *'            # Runs every day at 00:00 UTC
+  workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: "Optional commit SHA to test"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+  checks: write
+  id-token: write
+
+env:
+  TZ: America/Los_Angeles
+  SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
+
+jobs:
+  download_build:
+    name: Download Build & Run Regression Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run regression tests
+        run: npm run test:regression
+
+      - name: Upload test summary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: regression-test-summary
+          path: ./test-results/
+
+      - name: Post workflow status badge
+        if: always()
+        uses: crazy-max/ghaction-github-status@v4
+        with:
+          context: regression-tests
+          description: 'DevTools Regression Tests (AIC-HMV)'
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Regression tests failed for ${{ github.repository }} on ${{ github.ref }} by ${{ github.actor }}" | tee ./failure.log
+
+# End of workflow — AIC-HMV Supreme Verification
