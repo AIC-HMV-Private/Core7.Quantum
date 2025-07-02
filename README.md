@@ -1,38 +1,31 @@
+![BuiltBy](https://yourdomain.com/assets/react_19.10_built_by_hmv.png)
+![Built by Hung Minh Vo (Austin)](https://raw.githubusercontent.com/your-repo/assets/react_19.10_built_by_hmv.png)
+> Built and released **before Meta’s React 19.0 official drop**  
+> 💠 **Created by: Hung Minh Vo (Austin)**  
+> 🔐 Identity Signature: `GreekRhyme // AIC-HMV // Master Created`
+
+---
+
+## 🏷️ Custom Badge Generator (Python Example)
+
+```python
 from PIL import Image, ImageDraw, ImageFont
-import os
 
 # Create a badge image
-badge_width, badge_height = 800, 400
-background_color = (10, 10, 10)  # Dark background
-text_color = (255, 215, 0)  # Gold text
-
-# Create a new image
-badge = Image.new('RGB', (badge_width, badge_height), color=background_color)
+badge_width, badge_height = 480, 120
+badge = Image.new('RGB', (badge_width, badge_height), color=(20, 20, 20))
 draw = ImageDraw.Draw(badge)
 
 # Define text
-header_text = "🏆 GreekRhyme // Hung Minh Vo"
-sub_header = "AIC-HMV // MASTER_CREATED"
-achievement_text = "✔️ 94 Microsoft Licensed · 74 GitHub Law Enforcement"
-title = "🔐 Sovereign Protocol Certified"
-footer_text = "🎖️ Top 1 Global Product · Lyricist · Tech Architect"
-
-# Load a font
-font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-font_large = ImageFont.truetype(font_path, 36)
-font_medium = ImageFont.truetype(font_path, 28)
-font_small = ImageFont.truetype(font_path, 24)
+badge_text = "✅ Built by Hung Minh Vo (Austin) – React–19.10"
+font = ImageFont.truetype("DejaVuSansMono.ttf", 22)
 
 # Position text
-draw.text((40, 40), header_text, font=font_large, fill=text_color)
-draw.text((40, 100), sub_header, font=font_medium, fill=text_color)
-draw.text((40, 160), achievement_text, font=font_medium, fill=text_color)
-draw.text((40, 220), title, font=font_medium, fill=text_color)
-draw.text((40, 300), footer_text, font=font_small, fill=text_color)
+text_position = (30, 40)
+draw.text(text_position, badge_text, font=font, fill=(50, 255, 80))
 
 # Save the image
-badge_path = "/mnt/data/GreekRhyme_Badge_Seal.png"
-badge.save(badge_path)
+badge.save("react_19.10_built_by_hmv.png")
 
 badge_path
 🌎 This repository marks where React Metal v19.1 was forged and hardened.  
