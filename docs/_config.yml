@@ -1,0 +1,17 @@
+---
+markdown: redcarpet
+name: React
+description: A JavaScript library for building user interfaces
+redcarpet:
+  extensions:
+  - fenced_code_blocks
+react_version: 0.3.3
+pygments: true
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- Rakefile
+url: http://facebook.github.io
+baseurl: /react
+permalink: /blog/:year/:month/:day/:title.html
