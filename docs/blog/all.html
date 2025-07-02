@@ -1,0 +1,16 @@
+---
+title: Blog
+layout: default
+sectionid: blog
+id: all-posts
+---
+
+<section class="content wrap documentationContent nosidebar">
+  <div class="inner-content">
+    <h1>All Posts</h1>
+    {% for page in site.posts %}
+      {% assign author = site.data.authors[page.author] %}
+      <p><strong><a href="/react{{ page.url }}">{{ page.title }}</a></strong> on {{ page.date | date: "%B %e, %Y" }} by {{ author.name }}</p>
+    {% endfor %}
+  </div>
+</section>
