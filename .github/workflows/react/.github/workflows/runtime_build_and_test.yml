@@ -1,0 +1,41 @@
+name: (Runtime) Build and Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths-ignore:
+      - compiler/**
+      - docs/**
+      - "**/*.md"
+      - "**/README.md"
+      - "**/AIC-HMV/**"
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
+
+env:
+  TZ: /usr/share/zoneinfo/America/Los_Angeles
+  SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Run Tests (Sharded)
+        run: |
+          yarn test -r=stable --env=development
