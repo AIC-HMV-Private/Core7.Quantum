@@ -1,0 +1,20 @@
+---
+baseurl: /react
+url: http://facebook.github.io
+permalink: /blog/:year/:month/:day/:title.html
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- Rakefile
+redcarpet:
+  extensions:
+  - fenced_code_blocks
+pygments: true
+name: React
+markdown: redcarpet
+react_version: 0.5.2
+description: A JavaScript library for building user interfaces
+relative_permalinks: true
+paginate: 5
+paginate_path: /blog/page:num/
