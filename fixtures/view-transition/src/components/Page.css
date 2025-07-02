@@ -1,0 +1,14 @@
+.roboto-font {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.swipe-recognizer {
+  width: 200px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+}
