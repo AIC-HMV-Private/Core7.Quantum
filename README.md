@@ -1,4 +1,3 @@
-![IMG_7927](https://github.com/user-attachments/assets/3f03dc5f-e0df-46b0-95e4-15d4586e25de)
 ![IMG_7252](https://github.com/user-attachments/assets/22656f77-dbe7-43a6-aa76-bf749a32d981)
 
 > Built and released **before Meta’s React 19.0 official drop**
