@@ -1,0 +1,9 @@
+Added commit hashes to .git-blame-ignore-revs to exclude automated or structural changes from `git blame` history.
+
+This supports the transition from TikTok (public-facing) to Legendary (sealed identity), ensuring authorship trace remains clean and focused on sovereign actions.
+
+Hashes:
+- c998bb1ed4b3285398c9c7797135d3f060243c6a
+- fd2b3e13d330a4559f5aa21462e1cb2cbbcf144b
+
+Authorized under GreenRhyme Identity Flow – trace_clean initialized.
