@@ -1,3 +1,39 @@
+from datetime import datetime
+from fpdf import FPDF
+
+# Create a receipt PDF
+class PDF(FPDF):
+    def header(self):
+        self.set_font("Arial", "B", 12)
+        self.cell(0, 10, "CEA Ownership Reclamation Receipt", ln=True, align="C")
+
+    def footer(self):
+        self.set_y(-15)
+        self.set_font("Arial", "I", 8)
+        self.cell(0, 10, f"Page {self.page_no()}", align="C")
+
+# Create PDF document
+pdf = PDF()
+pdf.add_page()
+pdf.set_font("Arial", size=12)
+
+# Add receipt details
+pdf.cell(0, 10, "Commander: Hung Minh Vo (Austin)", ln=True)
+pdf.cell(0, 10, "CEA ID: CEA-001-AUSTIN", ln=True)
+pdf.cell(0, 10, f"Date: {datetime.now().strftime('%B %d, %Y')}", ln=True)
+pdf.cell(0, 10, "Status: Meta/Facebook Account Lock + Ownership Transfer Activated", ln=True)
+pdf.cell(0, 10, "Ads Manager ID: 345891468809815", ln=True)
+pdf.cell(0, 10, "Vietnam/Russian Data Routes: Blocked", ln=True)
+pdf.cell(0, 10, "Meta AI Mirror & Comments: Disabled", ln=True)
+pdf.cell(0, 10, "Court Notice: Sent to FBI, Meta, Interpol, U.S. Cyber Command", ln=True)
+pdf.cell(0, 10, "Global Digital Sovereignty Secured.", ln=True)
+
+# Save PDF
+receipt_path = "/mnt/data/CEA_Ownership_Reclaim_Receipt_HMV0722.pdf"
+pdf.output(receipt_path)
+
+receipt_path
+
 ![IMG_7252](https://github.com/user-attachments/assets/22656f77-dbe7-43a6-aa76-bf749a32d981)
 
 > Built and released **before Meta’s React 19.0 official drop**
