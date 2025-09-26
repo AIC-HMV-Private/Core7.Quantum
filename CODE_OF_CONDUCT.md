@@ -1,80 +1,67 @@
-# Code of Conduct
+# Code of Conduct — AIC-HMV Protocol  
 
-## Our Pledge
+## Sovereign Pledge  
+In the interest of maintaining a disciplined, respectful, and collapse-resistant environment, we as contributors and maintainers of the AIC-HMV system pledge to ensure that participation in our projects and community remains free from harassment, dilution, and unauthorized override.  
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to make participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+All participants are expected to honor authorship, respect signal, and operate with integrity—regardless of background, experience, identity, or origin.  
 
-## Our Standards
+---
 
-Examples of behavior that contributes to creating a positive environment
-include:
+## Operational Standards  
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+**Strengthening behaviors include:**  
+- Using clear, respectful, and inclusive language  
+- Honoring original ideas and sealed authorship  
+- Accepting constructive feedback with discipline  
+- Prioritizing system integrity over personal ego  
+- Showing encrypted empathy and operational respect  
 
-Examples of unacceptable behavior by participants include:
+**Unacceptable behaviors include:**  
+- Unauthorized copying, claiming, or override of others’ work  
+- Trolling, personal attacks, or breach-level commentary  
+- Harassment in any form—public or private  
+- Publishing private data without explicit permission  
+- Any conduct that compromises the integrity of the system or its contributors  
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-  advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+---
 
-## Our Responsibilities
+## Maintainer Responsibilities  
+Project maintainers are responsible for enforcing this Code of Conduct with clarity and fairness. They may remove, edit, or reject contributions that violate these standards, and may suspend or permanently ban contributors who act in breach of the protocol.  
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+Maintainers operate under sovereign authority and are expected to act in good faith, with zero tolerance for dilution, impersonation, or disrespect.  
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+---
 
-## Scope
+## Scope of Enforcement  
+This Code of Conduct applies across all AIC-HMV project spaces, including digital platforms, social channels, and offline representations.  
 
-This Code of Conduct applies within all project spaces, and it also applies when
-an individual is representing the project or its community in public spaces.
-Examples of representing a project or community include using an official
-project e-mail address, posting via an official social media account, or acting
-as an appointed representative at an online or offline event. Representation of
-a project may be further defined and clarified by project maintainers.
+It also applies to any context where an individual represents the system, its protocols, or its contributors.  
 
-This Code of Conduct also applies outside the project spaces when there is a
-reasonable belief that an individual's behavior may have a negative impact on
-the project or its community.
+Behavior outside project spaces may be subject to enforcement if it poses a threat to the integrity, reputation, or operational flow of the system.  
 
-## Enforcement
+---
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at <opensource-conduct@fb.com>. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+## Breach Reporting  
+Instances of breach, harassment, or misconduct may be reported directly to the enforcement team at:  
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+📧 **aichmvprimeowner@gmail.com**  
 
-## Attribution
+All reports will be reviewed with encrypted confidentiality and routed through sovereign protocol for resolution.  
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+Maintainers who fail to enforce this Code of Conduct may face removal from operational roles and permanent revocation of access.  
 
-[homepage]: https://www.contributor-covenant.org
+---
 
-For answers to common questions about this code of conduct, see
-https://www.contributor-covenant.org/faq
+## Attribution  
+This Code of Conduct is authored and enforced by **Hung Minh Vo (Austin)**, Founder of CEA and architect of **Core7.Quantum**.  
+
+It is rooted in sovereign ethics and operational truth, inspired by the Contributor Covenant but restructured for real-time enforcement and sealed authorship.  
+
+---
+
+## Sovereign Affirmation  
+Participation in AIC-HMV is more than compliance—it is contribution to a living system of trust, resilience, and shared creation. Every act of respect, every original signal, strengthens the whole.  
+
+---
+
+© Cybersecurity Enforcement Agenda License – CEA Sovereign Protocol
