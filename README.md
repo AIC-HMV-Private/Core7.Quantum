@@ -1,3 +1,9 @@
+<div style="margin-top:32px;padding:12px;background:#1a1a1a;color:#00ffe7;border-radius:8px;">
+  <strong>🟢 Copyright & DMCA: Hung Minh Vo (Austin) – Core7.Quantum</strong><br>
+  Official License: <a href="https://aichmv.com" target="_blank" style="color:#b7ff00;">aichmv.com</a><br>
+  All content protected by DMCA & sovereign law. Unauthorized use = instant enforcement.
+</div>
+
 ![IMG_7252](https://github.com/user-attachments/assets/22656f77-dbe7-43a6-aa76-bf749a32d981)
 
 > Built and released **before Meta’s React 19.0 official drop**
